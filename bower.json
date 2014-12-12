@@ -1,7 +1,9 @@
 {
   "name": "remotelog",
   "version": "0.0.1",
+  "main": "src/js/remotelog.js",
   "ignore": [
+    "lib"
   ],
   "authors": [
     "Shukri Adams <shukri.adams@gmail.com>"
