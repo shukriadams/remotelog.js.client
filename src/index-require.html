@@ -1,0 +1,20 @@
+<html>
+	<body>
+
+	</body>
+	<script src="lib/requirejs/require.js"></script>
+	<script>
+        require.config({
+            paths: {
+                'remotelog' : 'js/remotelog',
+	        }
+        });	
+        
+        require(['remotelog'], function(log){
+			log.init('http://lbi-log.azurewebsites.net/api/log/', 'testlog');
+			log.showInConsole = true;
+			log.write('hi from require js');
+        });
+
+	</script>
+</html>

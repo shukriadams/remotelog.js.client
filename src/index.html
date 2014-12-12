@@ -1,0 +1,11 @@
+<html>
+	<body>
+
+	</body>
+	<script src="remotelog.js"></script>
+	<script>
+		remotelog.init('http://lbi-log.azurewebsites.net/api/log/', 'testlog');
+		remotelog.showInConsole = true;
+		remotelog.write('hi from js');
+	</script>
+</html>

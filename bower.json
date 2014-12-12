@@ -1,0 +1,15 @@
+{
+  "name": "remotelog",
+  "version": "0.0.1",
+  "ignore": [
+  ],
+  "authors": [
+    "Shukri Adams <shukri.adams@gmail.com>"
+  ],
+    "dependencies": {
+        "requirejs": "latest"
+    },  
+  "license": "MIT",
+  "description": "A simple Javascript module to call a remotelog server (https://github.com/shukriadams/remotelog.net.server).",
+  "private": true
+}
